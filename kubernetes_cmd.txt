@@ -64,3 +64,7 @@ kubectl get deployment hello-world -o yaml
 -- to see the service  yaml for the particular deployment expose
 
 kubectl get service hello-world -o yaml
+
+-- deployment using depolyment.yaml from local to your gcloud kuberneets engine
+
+kubectl apply -f deployment.yaml
