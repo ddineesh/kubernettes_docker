@@ -1,0 +1,86 @@
+--docker run the image
+docker run -p 5000:5000 in28min/todo-rest-api-h2:1.0.0.RELEASE
+--docker run in the deattached mode
+docker run -p 5000:5000 -d  in28min/todo-rest-api-h2:1.0.0.RELEASE
+--see the logs of an deattached container
+docker logs  <CONTAINER_ID> for exampel ... 
+docker logs 668904dd66161931cfa0685122165d4ed43958b8b52988a7cbe165803e5f3360
+you can use the subset as well like 66890
+--tail the logs
+docker logs -f 668904dd66161931cfa0685122165d4ed43958b8b52988a7cbe165803e5f3360
+
+--list of Docker containers running 
+docker container ls
+
+--list of images running on the machine
+docker image ls
+
+--list of containers available in the machine irrespective of the status
+docker container ls -a
+
+--to stop the running container
+
+docker container stop <CONTAINER_ID>
+
+--To tag the old with new release
+docker image tag in28min/todo-rest-api-h2:1.0.0.RELEASE ddineesh/in28min/todo-rest-api-h2:0.0.1.LATEST
+
+--To pull image  from Docker Registry
+
+docker pull mysql 
+
+if you not specify the tag version, Docker will pull automatically the 'latest' tag
+
+--to search image with related name
+
+docker search <IMAGE_ID> for example, docker search mysql
+
+--to see the history of the image
+
+docker history <IMAGE_ID> for example, docker image history f8049a029560
+
+-- to inspect the image for port, version, tags, 
+
+docker image inspect <IMAGE_ID> for example, docker image inspect f8049a029560
+
+--to remove the image from the local
+
+docker image remove <IMAGE_ID> for example, docker image remove f8049a029560
+
+--to pause the container
+
+docker container pause <CONTAINER_ID> 
+
+--to unpause the container
+
+docker container unpause <CONTAINER_ID>
+
+--to get the details about the container like status, ports
+
+docker container inspect <CONTAINER_ID>
+
+--to remove the existed/stopped containers
+docker container prune
+
+--to set restart policy while we start the docker container
+
+docker container run -p 5000:5000 -d --restart=always <IMAGE_ID>
+
+--to see all the events
+
+docker events
+
+--to see the top process running in the particular container
+
+docker top <CONTAINER_ID>
+
+-- to see the container stats including cpu, memory,etc..
+
+docker stats
+
+-- to see the all images, container by docker damone
+docker system df
+
+-- to push the local docker image into docker hub
+
+docker push ddineesh/hello-world-rest-api:0.0.4-SNAPSHOT

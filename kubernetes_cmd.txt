@@ -1,0 +1,66 @@
+-connect the kubernets
+gcloud container clusters get-credentials  dinesh-first-cluster  --zone us-central1-a --project wise-alpha-294401
+--kubectl
+kubectl version
+--pull the image from Docker, the below command will create deployment
+kubectl create deployment hello-world-rest-api --image=in28min/hello-world-rest-api:0.0.1.RELEASE
+
+--the below command will expose the deployment to the external world
+kubectl expose deployment hello-world-rest-api --type=LoadBalancer --port=8080
+
+--local host lunch the app
+http://35.238.99.109:8080/
+
+--test the hello-world
+http://35.238.99.109:8080/hello-world
+http://35.238.99.109:8080/hello-world-bean
+
+--reduce the nodes to Zero
+
+gcloud container clusters resize --zone us-central1-a dinesh-cluster --num-nodes=0
+
+--increase the node size to 3 again
+
+gcloud container clusters resize --zone us-central1-a dinesh-cluster --num-nodes=3
+
+
+--to get the details of events in the kuberneets
+
+kubectl get events
+
+kubectl get events --sort-by=meta.data.creationTimeStamp
+
+--to get the details of replicasets in the kuberneets, like below you can get the services and deployments as well
+
+kubectl get replicasets
+
+--to get the components statuses
+kubectl get componentstatuses
+
+
+kubectl get pods -o wide
+
+--to get the details of POD like IP etc,
+
+kubectl get pods -o wide
+
+--to get the details of replicasets like IP etc,
+
+kubectl get replicasets -o wide
+
+--to get the delete the pods
+
+kubectl delete pods <POD_ID>
+
+--to increase the no of pods
+
+kubectl scale deployment hello-world-rest-api --replicas=3
+
+-- to see the deployment yaml of the deployment
+
+kubectl get deployment hello-world -o yaml
+
+
+-- to see the service  yaml for the particular deployment expose
+
+kubectl get service hello-world -o yaml
