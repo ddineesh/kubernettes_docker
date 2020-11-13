@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\Dinesh\\WS\\doc_kube\\01-hello-world-rest-api\\.git;
-GitRepositoriesView.GitDirectories.relative=01-hello-world-rest-api\\.git;
+GitRepositoriesView.GitDirectories=C\:\\Dinesh\\WS\\doc_kube\\01-hello-world-rest-api\\.git;C\:\\Dinesh\\WS\\doc_kube\\.git;
+GitRepositoriesView.GitDirectories.relative=01-hello-world-rest-api\\.git;.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
