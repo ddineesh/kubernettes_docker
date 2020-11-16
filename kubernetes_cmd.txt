@@ -1,12 +1,12 @@
 -connect the kubernets
-gcloud container clusters get-credentials  dinesh-first-cluster  --zone us-central1-a --project wise-alpha-294401
+gcloud container clusters get-credentials   my-first-cluster-1  --zone us-central1-c --project wise-alpha-294401
 --kubectl
 kubectl version
 --pull the image from Docker, the below command will create deployment
-kubectl create deployment hello-world-rest-api --image=in28min/hello-world-rest-api:0.0.1.RELEASE
+kubectl create deployment todo-web-application --image=ddineesh/todo-web-application-h2:0.0.1-SNAPSHOT
 
 --the below command will expose the deployment to the external world
-kubectl expose deployment hello-world-rest-api --type=LoadBalancer --port=8080
+kubectl expose deployment todo-web-application --type=LoadBalancer --port=8080
 
 --local host lunch the app
 http://35.238.99.109:8080/
@@ -38,11 +38,18 @@ kubectl get replicasets
 kubectl get componentstatuses
 
 
+--below two commands the get the PODS details from the current names sapce
 kubectl get pods -o wide
 
 --to get the details of POD like IP etc,
 
 kubectl get pods -o wide
+
+--below command  get the PODS details from the all the  names sapces
+
+kubectl get pods --all-namespaces
+
+
 
 --to get the details of replicasets like IP etc,
 
@@ -64,7 +71,28 @@ kubectl get deployment hello-world -o yaml
 -- to see the service  yaml for the particular deployment expose
 
 kubectl get service hello-world -o yaml
+or
+kubectl get svc hello-world -o yaml
+
+
+--to sort the services by type (load balancer etc,,)
+
+kubectl get services --all-namespaces --sort-by=.spec.type
 
 -- deployment using depolyment.yaml from local to your gcloud kuberneets engine
 
 kubectl apply -f deployment.yaml
+
+-- deployment using depolyment.yaml from local to your gcloud kuberneets engine ( to difference from current deployment)
+kubectl diff -f depolyment.yaml
+
+--to get the cluster information
+
+kubectl cluster-info
+
+--to get the get nodes by sorting using cpu utilization
+kubectl top node
+
+
+--to get the get podes by sorting using cpu utilization
+kubectl top pod

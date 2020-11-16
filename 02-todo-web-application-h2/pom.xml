@@ -4,13 +4,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.in28minutes.springboot.web</groupId>
+	<groupId>com.dinesh.rest.webapplication</groupId>
 	<artifactId>02-todo-web-application-h2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>todo-web-application-h2</name>
 
-	<description>Demo project for Spring Boot</description>
+	<description>Spring Boot with h2 data base on docker</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -116,7 +116,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>in28min/${project.name}</repository>
+					<repository>ddineesh/${project.name}</repository>
 					<tag>${project.version}</tag>
 					<skipDockerInfo>true</skipDockerInfo>
 				</configuration>
