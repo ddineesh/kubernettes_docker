@@ -84,3 +84,25 @@ docker system df
 -- to push the local docker image into docker hub
 
 docker push ddineesh/hello-world-rest-api:0.0.4-SNAPSHOT
+
+--to start/run the mysql image in local docker
+
+docker run -d -e MYSQL_ROOT_PASSWORD=root_admin -e MYSQL_DATABASE=todos -e MYSQL_USER=dinesh_root -e MYSQL_PASSWORD=admin -p 3306:3306 mysql:5.7
+
+--to connect application container to the mysql data base container
+docker container run -p 8080:8080 --link=mysql -e RDS_HOSTNAME=mysql  ddineesh/todo-web-application-mysql:0.0.1-SNAPSHOT
+
+
+
+
+create custom network under docker
+
+docker network ls
+docker network create web-application-mysql-network
+docker inspect web-application-mysql-network
+ 
+docker run --detach --env MYSQL_ROOT_PASSWORD=dummypassword --env MYSQL_USER=todos-user --env MYSQL_PASSWORD=dummytodos --env MYSQL_DATABASE=todos --name mysql --publish 3306:3306 mysql:5.7
+ 
+docker run --detach --env MYSQL_ROOT_PASSWORD=dummypassword --env MYSQL_USER=todos-user --env MYSQL_PASSWORD=dummytodos --env MYSQL_DATABASE=todos --name mysql --publish 3306:3306 --network=web-application-mysql-network mysql:5.7
+ 
+docker inspect web-application-mysql-network
