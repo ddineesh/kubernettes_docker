@@ -4,13 +4,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.in28minutes.springboot.web</groupId>
+	<groupId>com.dinesh.rest.web</groupId>
 	<artifactId>03-todo-web-application-mysql</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>todo-web-application-mysql</name>
 
-	<description>Demo project for Spring Boot</description>
+	<description>Spring Boot with mysql data base on docker</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -130,7 +130,7 @@
 				</executions>
 				<configuration>
 					<!-- todo -->
-					<repository>in28min/${project.name}</repository>
+					<repository>ddineesh/${project.name}</repository>
 					<tag>${project.version}</tag>
 					<skipDockerInfo>true</skipDockerInfo>
 				</configuration>
