@@ -107,3 +107,23 @@ kubectl apply -f todo-web-application-deployment.yaml,todo-web-application-servi
 kubectl get pv
 --to see the persistent volumne claim
 kubectl get pvc
+
+--create the config map for the centralized values like data base name, schema, user name,etc..
+kubectl create configmap todo-web-application-config --from-literal=RDS_DB_NAME=todos
+
+--to get the config map which is existed already
+kubectl get configmap todo-web-application-config
+
+--to see the stored values in the map
+kubectl describe configmap/todo-web-application-config
+
+--to create secret for the passwords and sensitive information
+kubectl create secret generic todo-web-application-secrets --from-literal=RDS_PASSWORD=admin
+
+--to get the secrets which we created/existing
+
+kubectl get secret/todo-web-application-secrets
+
+
+--Delete everthing the same way we did created
+kubectl delete -f mysql-database-data-volume-persistentvolumeclaim.yaml,mysql-deployment.yaml,mysql-service.yaml,todo-web-application-deployment.yaml,todo-web-application-service.yaml
