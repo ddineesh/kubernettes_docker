@@ -96,3 +96,9 @@ kubectl top node
 
 --to get the get podes by sorting using cpu utilization
 kubectl top pod
+
+--to lanch the multiple kubernettes with multiple yaml files
+--mysql
+kubectl apply -f mysql-database-data-volume-persistentvolumeclaim.yaml,mysql-deployment.yaml,mysql-service.yaml
+--todo web application
+kubectl apply -f todo-web-application-deployment.yaml,todo-web-application-service.yaml
