@@ -102,3 +102,8 @@ kubectl top pod
 kubectl apply -f mysql-database-data-volume-persistentvolumeclaim.yaml,mysql-deployment.yaml,mysql-service.yaml
 --todo web application
 kubectl apply -f todo-web-application-deployment.yaml,todo-web-application-service.yaml
+
+--to see the persistent volumne
+kubectl get pv
+--to see the persistent volumne claim
+kubectl get pvc
