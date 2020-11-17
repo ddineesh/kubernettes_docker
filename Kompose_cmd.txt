@@ -1,0 +1,6 @@
+Kompose commands:
+
+--to convert the docker-compose.yml file into kompose yaml files. 
+--the below commands convert all docker-compose file into four different kompose files.
+kompose-windows-amd64.exe convert
+

@@ -92,7 +92,9 @@ docker run -d -e MYSQL_ROOT_PASSWORD=root_admin -e MYSQL_DATABASE=todos -e MYSQL
 --to connect application container to the mysql data base container
 docker container run -p 8080:8080 --link=mysql -e RDS_HOSTNAME=mysql  ddineesh/todo-web-application-mysql:0.0.1-SNAPSHOT
 
-
+--to deploy multiple container with one docker-compose
+--Note the docker-compose.yml file should be present the same directory when you enter the below command
+docker-compose up
 
 
 create custom network under docker
