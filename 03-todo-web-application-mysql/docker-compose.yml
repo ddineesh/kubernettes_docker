@@ -7,7 +7,7 @@ version: '3.7'
 # {"auths":{},"credsStore":"","stackOrchestrator":"swarm"}
 services:
   todo-web-application:
-    image: in28min/todo-web-application-mysql:0.0.1-SNAPSHOT
+    image: ddineesh/todo-web-application-mysql:0.0.1-SNAPSHOT
     #build:
       #context: .
       #dockerfile: Dockerfile
@@ -20,8 +20,8 @@ services:
       RDS_HOSTNAME: mysql
       RDS_PORT: 3306
       RDS_DB_NAME: todos
-      RDS_USERNAME: todos-user
-      RDS_PASSWORD: dummytodos
+      RDS_USERNAME: dinesh_root
+      RDS_PASSWORD: admin
 
   mysql:
     image: mysql:5.7
@@ -29,10 +29,10 @@ services:
       - "3306:3306"
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_ROOT_PASSWORD: dummypassword 
-      MYSQL_USER: todos-user
-      MYSQL_PASSWORD: dummytodos
+      MYSQL_ROOT_PASSWORD: root_admin
+      MYSQL_ROOT_PASSWORD: root_admin 
+      MYSQL_USER: dinesh_root
+      MYSQL_PASSWORD: admin
       MYSQL_DATABASE: todos
     volumes:
       - mysql-database-data-volume:/var/lib/mysql
