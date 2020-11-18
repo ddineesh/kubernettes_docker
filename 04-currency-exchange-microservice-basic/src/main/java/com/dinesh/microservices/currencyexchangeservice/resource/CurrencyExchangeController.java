@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.dinesh.microservices.currencyexchangeservice.util.environment.InstanceInformationService;
 
+
 @RestController
 public class CurrencyExchangeController {
 
@@ -26,6 +27,13 @@ public class CurrencyExchangeController {
 	@GetMapping("/")
 	public String imHealthy() {
 		return "{healthy:true}";
+	}
+	
+	
+	@GetMapping("/application")
+	public String applicationName()
+	{
+		return "This is Currency Exchange service !!!";
 	}
 
 	//http://localhost:8000/currency-exchange/from/USD/to/INR
@@ -53,4 +61,5 @@ public class CurrencyExchangeController {
 			LOGGER.info(String.format("Header '%s' = %s", key, value));
 		});
 	}
+
 }

@@ -3142,3 +3142,170 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2020-11-18 11:11:06,731 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-11-18 11:11:06,731 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2020-11-18 11:11:06,747 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:11:06,752 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:11:06,752 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:31:49,726 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:31:49,726 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:31:49,739 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:31:49,739 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:31:49,739 [Worker-39: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:32:05,182 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:32:05,186 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:32:05,189 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:32:05,189 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:32:05,189 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:32:15,849 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:32:15,849 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:32:15,849 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:32:15,849 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:32:15,849 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:32:25,931 [Worker-44: Launching Executing clean in C__Dinesh_WS_doc_kube_04-currency-exchange-microservice-basic] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic
+2020-11-18 11:32:25,931 [Worker-44: Launching Executing clean in C__Dinesh_WS_doc_kube_04-currency-exchange-microservice-basic] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2020-11-18 11:32:31,449 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:32:31,449 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:32:31,449 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:32:31,464 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:32:31,464 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:34:12,569 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:34:12,584 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-18 11:34:12,584 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-18 11:34:12,584 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:34:12,584 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:34:15,437 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:34:15,437 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:34:15,461 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:34:15,461 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:34:15,461 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:35:46,008 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:35:46,008 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:35:46,024 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:35:46,024 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:35:46,024 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:36:09,491 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:36:09,491 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:36:09,491 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:36:09,491 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:36:09,491 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:36:42,626 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:36:42,626 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:36:42,633 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:36:42,633 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:36:42,633 [Worker-42: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:36:52,439 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:36:52,439 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:36:52,454 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:36:52,454 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:36:52,454 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:39:06,567 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:39:06,569 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:39:06,581 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:39:06,581 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:39:06,581 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:39:25,839 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:39:25,839 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:39:25,839 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:39:25,839 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:39:25,839 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:39:38,986 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:39:38,986 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:39:38,986 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:39:38,986 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:39:38,986 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:40:17,289 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:40:17,304 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:40:17,304 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:40:17,304 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:40:17,304 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:40:50,925 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-11-18 11:41:14,747 [Worker-7: Launching Executing clean in C__Dinesh_WS_doc_kube_04-currency-exchange-microservice-basic] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic
+2020-11-18 11:41:14,750 [Worker-7: Launching Executing clean in C__Dinesh_WS_doc_kube_04-currency-exchange-microservice-basic] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2020-11-18 11:41:20,103 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:41:20,109 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:41:20,126 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:41:20,143 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:41:20,144 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:43:07,117 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:43:07,123 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:43:07,130 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:43:07,133 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:43:07,133 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:43:22,115 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:43:22,119 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:43:22,126 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:43:22,131 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:43:22,131 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:43:50,223 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:43:50,225 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:43:50,231 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:43:50,234 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:43:50,234 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:45:01,797 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:45:01,799 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:45:01,804 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:45:01,807 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:45:01,807 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:45:24,472 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:45:24,474 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:45:24,480 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:45:24,483 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:45:24,483 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:45:56,807 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:45:56,810 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:45:56,817 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:45:56,821 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:45:56,821 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:48:16,013 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:48:16,014 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-18 11:48:16,014 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-18 11:48:16,017 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:48:16,018 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:48:48,568 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:48:48,570 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:48:48,576 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:48:48,579 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:48:48,579 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:49:16,961 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:49:16,961 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-18 11:49:16,961 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-18 11:49:16,963 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:49:16,963 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:49:52,649 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:49:52,649 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-18 11:49:52,649 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-18 11:49:52,651 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:49:52,651 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:50:49,940 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:50:49,940 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-18 11:50:49,941 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-18 11:50:49,943 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:50:49,943 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:51:00,924 [Worker-2: Launching Executing clean in C__Dinesh_WS_doc_kube_04-currency-exchange-microservice-basic] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic
+2020-11-18 11:51:00,924 [Worker-2: Launching Executing clean in C__Dinesh_WS_doc_kube_04-currency-exchange-microservice-basic] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2020-11-18 11:51:04,859 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:51:04,868 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:51:04,873 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:51:04,880 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:51:04,880 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:52:48,141 [Worker-0: Launching Executing install in C__Dinesh_WS_doc_kube_04-currency-exchange-microservice-basic] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic
+2020-11-18 11:52:48,142 [Worker-0: Launching Executing install in C__Dinesh_WS_doc_kube_04-currency-exchange-microservice-basic] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2020-11-18 11:54:31,535 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dinesh.microservices:04-currency-exchange-basic:0.0.1-RELEASE @ C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\pom.xml.
+2020-11-18 11:54:35,481 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /04-currency-exchange-microservice-basic/src/main/java
+2020-11-18 11:54:35,482 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /04-currency-exchange-microservice-basic/src/main/resources
+2020-11-18 11:54:35,482 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /04-currency-exchange-microservice-basic/src/main/resources
+2020-11-18 11:54:35,483 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /04-currency-exchange-microservice-basic/src/test/java
+2020-11-18 11:54:36,301 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2020-11-18 11:54:41,233 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:54:41,234 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:54:41,249 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:54:41,266 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:54:41,266 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:56:39,964 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:56:39,964 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:56:39,964 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:56:39,964 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:56:39,964 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
+2020-11-18 11:59:09,155 [Worker-16: Launching 04-currency-exchange-microservice-basic - CurrencyExchangeServiceApplicationH2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:59:09,155 [Worker-16: Launching 04-currency-exchange-microservice-basic - CurrencyExchangeServiceApplicationH2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:59:09,155 [Worker-16: Launching 04-currency-exchange-microservice-basic - CurrencyExchangeServiceApplicationH2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-18 11:59:09,155 [Worker-16: Launching 04-currency-exchange-microservice-basic - CurrencyExchangeServiceApplicationH2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-18 11:59:09,155 [Worker-16: Launching 04-currency-exchange-microservice-basic - CurrencyExchangeServiceApplicationH2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Dinesh\WS\doc_kube\04-currency-exchange-microservice-basic\src\test\resources
