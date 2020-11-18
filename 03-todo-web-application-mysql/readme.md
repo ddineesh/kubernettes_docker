@@ -1,6 +1,6 @@
 # Todo Web Application using Spring Boot and MySQL as Database
 
-Run com.in28minutes.springboot.web.SpringBootFirstWebApplication as a Java Application.
+Run com.dinesh.springboot.web.SpringBootFirstWebApplication as a Java Application.
 
 Runs on default port of Spring Boot - 8080
 
@@ -15,10 +15,10 @@ We will deploy to Cloud as a WAR
 
 ## Web Application
 
-- http://localhost:8080/login with in28minutes/dummy as credentials
+- http://localhost:8080/login with dinesh/admin as credentials
 - You can add, delete and update your todos
 - Spring Security is used to secure the application
-- `com.in28minutes.springboot.web.security.SecurityConfiguration` contains the in memory security credential configuration.
+- `com.dinesh.springboot.web.security.SecurityConfiguration` contains the in memory security credential configuration.
 
 
 ## KOMPOSE 
@@ -128,7 +128,7 @@ Fetching table and column names from `todos` for auto-completion... Press ^C to 
 +----+--------------+---------+----------------------------+-------------+
 | id | description  | is_done | target_date                | user        |
 +----+--------------+---------+----------------------------+-------------+
-|  1 | Default Desc | 0       | 2019-06-26 18:30:00.000000 | in28minutes |
+|  1 | Default Desc | 0       | 2019-06-26 18:30:00.000000 | dinesh |
 +----+--------------+---------+----------------------------+-------------+
 1 row in set (0.0032 sec)
 
