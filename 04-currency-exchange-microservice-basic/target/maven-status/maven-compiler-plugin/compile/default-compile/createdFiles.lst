@@ -1,7 +1,0 @@
-com\dinesh\microservices\currencyexchangeservice\util\environment\EnvironmentConfigurationLogger.class
-com\dinesh\microservices\currencyexchangeservice\util\environment\InstanceInformationService.class
-com\dinesh\microservices\currencyexchangeservice\CurrencyExchangeServiceApplicationH2.class
-com\dinesh\microservices\currencyexchangeservice\resource\ExchangeValue.class
-com\dinesh\microservices\currencyexchangeservice\resource\CurrencyExchangeController.class
-com\dinesh\microservices\currencyexchangeservice\resource\ExchangeValueRepository.class
-com\dinesh\microservices\currencyexchangeservice\security\SecurityConfiguration.class
