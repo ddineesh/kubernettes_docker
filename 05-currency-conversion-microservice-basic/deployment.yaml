@@ -49,4 +49,4 @@ spec:
   selector:
     app: currency-conversion
   sessionAffinity: None #CHANGE
-  type: LoadBalancer
+  type: NodePort #LoadBalancer-- since the we used ingress LB as common for both services, we don't need this type
