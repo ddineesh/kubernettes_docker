@@ -54,8 +54,8 @@ spring.jpa.hibernate.ddl-auto=update
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL55Dialect
 spring.datasource.url=jdbc:mysql://localhost:3306/todos
-spring.datasource.username=todos-user
-spring.datasource.password=dummytodos
+spring.datasource.username=dinesh_root
+spring.datasource.password=admin
 ```
 
 #### src/test/resources/application.properties
@@ -80,15 +80,16 @@ private String desc;
 ### Launching MySQL using Docker
 
 ```
-docker run --detach --env MYSQL_ROOT_PASSWORD=dummypassword --env MYSQL_USER=todos-user --env MYSQL_PASSWORD=dummytodos --env MYSQL_DATABASE=todos --name mysql --publish 3306:3306 mysql:5.7
+docker run -detach -env MYSQL_ROOT_PASSWORD=root_admin -env MYSQL_DATABASE=todos -env MYSQL_USER=dinesh_root -env MYSQL_PASSWORD=admin -publish 3306:3306 mysql:5.7
 ```
+
 
 ### Launching Web App using Docker
 
 Using Link
 
 ```
-docker container run -p 8080:8080 --link=mysql -e RDS_HOSTNAME=mysql  in28min/todo-web-application-mysql:0.0.1-SNAPSHOT
+docker container run -p 8080:8080 --link=mysql -e RDS_HOSTNAME=mysql  ddineesh/todo-web-application-mysql:0.0.1-SNAPSHOT
 ```
 
 
@@ -110,7 +111,7 @@ Type '\help' or '\?' for help; '\quit' to exit.
 
 MySQL  JS > \connect todos-user@localhost:3306
 Creating a session to 'todos-user@localhost:3306'
-Please provide the password for 'todos-user@localhost:3306': 
+Please provide the password for 'dinesh_root@localhost:3306': 
 Save password for 'todos-user@localhost:3306'? [Y]es/[N]o/Ne[v]er (default No): v
 Fetching schema names for autocompletion... Press ^C to stop.
 Your MySQL connection id is 37
