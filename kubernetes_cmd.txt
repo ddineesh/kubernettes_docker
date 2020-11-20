@@ -139,3 +139,10 @@ kubectl get hpa
 --The below command will the get the specification in yaml file,
 
 kubectl get hpa currency-exchange -o yaml > 01-hpa.yaml
+
+
+--to get the service account details
+kubectl get serviceaccount
+
+--to get the ingress details
+kubectl get ingress
