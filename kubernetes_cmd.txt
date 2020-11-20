@@ -129,8 +129,13 @@ kubectl get secret/todo-web-application-secrets
 kubectl delete -f mysql-database-data-volume-persistentvolumeclaim.yaml,mysql-deployment.yaml,mysql-service.yaml,todo-web-application-deployment.yaml,todo-web-application-service.yaml
 
 
---to get the service account details
-kubectl get serviceaccount
+--The below command will trigger the request on every 0.1 seconds
+watch -n 0.1 curl http://34.120.154.169/currency-exchange/from/USD/to/INR
 
---to get the ingress details
-kubectl get ingress
+--The below command will spin up the pods based the cpu %
+kubectl autoscale deployment currency-exchange --min=1 --max=3 --cpu-percent=10
+--The above command will created a horizontal pod scalr(hpa), to view the same below use below command
+kubectl get hpa
+--The below command will the get the specification in yaml file,
+
+kubectl get hpa currency-exchange -o yaml > 01-hpa.yaml
