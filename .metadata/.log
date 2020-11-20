@@ -5931,3 +5931,101 @@ java.util.concurrent.TimeoutException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-11-20 16:04:36.222
+!MESSAGE Could not download sources for com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.guava:listenablefuture:jar:sources:9999.0-empty-to-avoid-conflict-with-guava
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.google.guava:listenablefuture:jar:sources:9999.0-empty-to-avoid-conflict-with-guava
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-11-20 16:04:36.222
+!MESSAGE Could not resolve artifact com.google.guava:listenablefuture:jar:sources:9999.0-empty-to-avoid-conflict-with-guava
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-11-20 16:04:36.222
+!MESSAGE Missing com.google.guava:listenablefuture:jar:sources:9999.0-empty-to-avoid-conflict-with-guava
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 16:05:02.498
+!MESSAGE Preparing classpath changed notification 08-currency-conversion-microservice-stackdriver
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 16:05:02.504
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 16:05:02.525
+!MESSAGE classpath=196 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 16:05:02.526
+!MESSAGE executing callback sts4.classpath.EDSDpNFV 08-currency-conversion-microservice-stackdriver false 196
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 16:05:04.299
+!MESSAGE executing callback sts4.classpath.EDSDpNFV SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-11-20 16:05:06.200
+!MESSAGE Could not download javadoc for com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.guava:listenablefuture:jar:javadoc:9999.0-empty-to-avoid-conflict-with-guava
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.google.guava:listenablefuture:jar:javadoc:9999.0-empty-to-avoid-conflict-with-guava
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-11-20 16:05:06.201
+!MESSAGE Could not resolve artifact com.google.guava:listenablefuture:jar:javadoc:9999.0-empty-to-avoid-conflict-with-guava
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-11-20 16:05:06.201
+!MESSAGE Missing com.google.guava:listenablefuture:jar:javadoc:9999.0-empty-to-avoid-conflict-with-guava
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 16:05:15.337
+!MESSAGE Preparing classpath changed notification 07-currency-exchange-microservice-stackdriver
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 16:05:15.340
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 16:05:15.362
+!MESSAGE classpath=180 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 16:05:15.369
+!MESSAGE executing callback sts4.classpath.EDSDpNFV 07-currency-exchange-microservice-stackdriver false 180
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 16:05:17.206
+!MESSAGE executing callback sts4.classpath.EDSDpNFV SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 16:23:38.288
+!MESSAGE Preparing classpath changed notification 07-currency-exchange-microservice-stackdriver
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 16:23:38.293
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 16:23:38.307
+!MESSAGE classpath=178 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-20 16:23:38.310
+!MESSAGE executing callback sts4.classpath.EDSDpNFV 07-currency-exchange-microservice-stackdriver false 178
