@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: ddasarat
+Build-Jdk: 11.0.9
+Implementation-Title: currency-exchange
+Implementation-Version: 2.0.0-RELEASE
+Implementation-Vendor-Id: com.dinesh.microservices
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/07-currency-exchange-stackdriver
+Created-By: Maven Integration for Eclipse
+

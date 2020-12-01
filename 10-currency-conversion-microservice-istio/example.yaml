@@ -1,0 +1,12 @@
+microservices:
+ - app: currency-conversion-service
+   port: 8000
+   version: 
+   - 1.0
+   - 2.0
+ - app: currency-exchange-service
+   port: 8100
+   version: 
+   - v1
+   - v2
+   
