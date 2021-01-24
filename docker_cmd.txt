@@ -23,7 +23,7 @@ docker container ls -a
 docker container stop <CONTAINER_ID>
 
 --To tag the old with new release
-docker image tag in28min/todo-rest-api-h2:1.0.0.RELEASE ddineesh/in28min/todo-rest-api-h2:0.0.1.LATEST
+docker image tag in28min/todo-rest-api-h2:1.0.0.RELEASE ddineesh/todo-rest-api-h2:0.0.1.LATEST
 
 --To pull image  from Docker Registry
 
@@ -108,3 +108,8 @@ docker run --detach --env MYSQL_ROOT_PASSWORD=dummypassword --env MYSQL_USER=tod
 docker run --detach --env MYSQL_ROOT_PASSWORD=dummypassword --env MYSQL_USER=todos-user --env MYSQL_PASSWORD=dummytodos --env MYSQL_DATABASE=todos --name mysql --publish 3306:3306 --network=web-application-mysql-network mysql:5.7
  
 docker inspect web-application-mysql-network
+
+
+--to assign particular memory and cpu for the container
+
+docker run -p 8000:8000 -m 512m --cpu-quota 5000 -d ddineesh/todo-web-application-h2:0.0.1-SNAPSHOT

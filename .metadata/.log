@@ -5785,3 +5785,1122 @@ Caused by: java.lang.NullPointerException
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
 	... 65 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:08:55.515
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:08:55.526
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@720d2b8c[org.springframework.tooling.boot.ls:1.5.0.201903290544(id=533)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:08:55.533
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:08:55.835
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:11.237
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ihxmgNOa
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:11.243
+!MESSAGE subscribing to classpath changes: sts4.classpath.ihxmgNOa
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:11.250
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:11.256
+!MESSAGE subsribers = [sts4.classpath.ihxmgNOa]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:11.262
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:11.646
+!MESSAGE project 02-todo-web-application-h2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:11.652
+!MESSAGE project 10-currency-conversion-microservice-istio ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:11.656
+!MESSAGE Preparing classpath changed notification 02-todo-web-application-h2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:11.661
+!MESSAGE project 01-hello-world ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:11.665
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:11.671
+!MESSAGE project 03-todo-web-application-mysql ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:11.678
+!MESSAGE project 04-currency-exchange-microservice-basic ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:11.685
+!MESSAGE project 05-currency-conversion-microservice-basic ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:11.693
+!MESSAGE project 06-currency-conversion-microservice-cloud ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:11.700
+!MESSAGE project 07-currency-exchange-microservice-stackdriver ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:11.707
+!MESSAGE project 08-currency-conversion-microservice-stackdriver ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:11.713
+!MESSAGE project 09-currency-exchange-microservice-istio ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:11.719
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:11.725
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:11.732
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ihxmgNOa => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:11.732
+!MESSAGE executing callback sts4.classpath.ihxmgNOa 02-todo-web-application-h2 false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:12.770
+!MESSAGE executing callback sts4.classpath.ihxmgNOa SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:12.776
+!MESSAGE Preparing classpath changed notification 09-currency-exchange-microservice-istio
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:12.779
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:12.838
+!MESSAGE classpath=130 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:12.845
+!MESSAGE executing callback sts4.classpath.ihxmgNOa 09-currency-exchange-microservice-istio false 130
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:14.865
+!MESSAGE executing callback sts4.classpath.ihxmgNOa FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2020-12-03 14:09:14.872
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:180)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:14.878
+!MESSAGE Preparing classpath changed notification 08-currency-conversion-microservice-stackdriver
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:14.884
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:14.949
+!MESSAGE classpath=196 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:14.955
+!MESSAGE executing callback sts4.classpath.ihxmgNOa 08-currency-conversion-microservice-stackdriver false 196
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:16.972
+!MESSAGE executing callback sts4.classpath.ihxmgNOa FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2020-12-03 14:09:16.978
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:180)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:16.984
+!MESSAGE Preparing classpath changed notification 07-currency-exchange-microservice-stackdriver
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:16.991
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:17.015
+!MESSAGE classpath=178 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:17.015
+!MESSAGE executing callback sts4.classpath.ihxmgNOa 07-currency-exchange-microservice-stackdriver false 178
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:19.366
+!MESSAGE executing callback sts4.classpath.ihxmgNOa FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2020-12-03 14:09:19.640
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:180)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:19.646
+!MESSAGE Preparing classpath changed notification 06-currency-conversion-microservice-cloud
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:19.654
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:19.688
+!MESSAGE classpath=179 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:19.696
+!MESSAGE executing callback sts4.classpath.ihxmgNOa 06-currency-conversion-microservice-cloud false 179
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:21.754
+!MESSAGE executing callback sts4.classpath.ihxmgNOa FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2020-12-03 14:09:21.758
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:180)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:21.764
+!MESSAGE Preparing classpath changed notification 05-currency-conversion-microservice-basic
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:21.769
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:21.788
+!MESSAGE classpath=142 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:21.792
+!MESSAGE executing callback sts4.classpath.ihxmgNOa 05-currency-conversion-microservice-basic false 142
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:24.641
+!MESSAGE executing callback sts4.classpath.ihxmgNOa SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:24.656
+!MESSAGE Preparing classpath changed notification 04-currency-exchange-microservice-basic
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:24.670
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:24.687
+!MESSAGE classpath=124 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:24.694
+!MESSAGE executing callback sts4.classpath.ihxmgNOa 04-currency-exchange-microservice-basic false 124
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:26.300
+!MESSAGE executing callback sts4.classpath.ihxmgNOa SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:26.305
+!MESSAGE Preparing classpath changed notification 03-todo-web-application-mysql
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:26.311
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:26.323
+!MESSAGE classpath=103 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:26.330
+!MESSAGE executing callback sts4.classpath.ihxmgNOa 03-todo-web-application-mysql false 103
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:26.427
+!MESSAGE executing callback sts4.classpath.ihxmgNOa SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:26.434
+!MESSAGE Preparing classpath changed notification 01-hello-world
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:26.437
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:26.467
+!MESSAGE classpath=65 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:26.472
+!MESSAGE executing callback sts4.classpath.ihxmgNOa 01-hello-world false 65
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:27.747
+!MESSAGE executing callback sts4.classpath.ihxmgNOa SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:27.761
+!MESSAGE Preparing classpath changed notification 10-currency-conversion-microservice-istio
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:27.773
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:27.828
+!MESSAGE classpath=128 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:27.832
+!MESSAGE executing callback sts4.classpath.ihxmgNOa 10-currency-conversion-microservice-istio false 128
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:09:29.577
+!MESSAGE executing callback sts4.classpath.ihxmgNOa SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-03 14:14:45.877
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:108)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:14:52.998
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ihxmgNOa
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:14:53.005
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ihxmgNOa
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:14:53.012
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-03 14:14:53.087
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ihxmgNOa => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:39.190
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vRbhljBK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:39.195
+!MESSAGE subscribing to classpath changes: sts4.classpath.vRbhljBK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:39.198
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:39.202
+!MESSAGE subsribers = [sts4.classpath.vRbhljBK]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:39.206
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:39.636
+!MESSAGE project 01-hello-world ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:39.641
+!MESSAGE Preparing classpath changed notification 01-hello-world
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:39.644
+!MESSAGE project 02-todo-web-application-h2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:39.648
+!MESSAGE project 03-todo-web-application-mysql ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:39.652
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:39.656
+!MESSAGE project 04-currency-exchange-microservice-basic ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:39.661
+!MESSAGE project 05-currency-conversion-microservice-basic ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:39.665
+!MESSAGE project 06-currency-conversion-microservice-cloud ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:39.669
+!MESSAGE project 07-currency-exchange-microservice-stackdriver ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:39.674
+!MESSAGE project 08-currency-conversion-microservice-stackdriver ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:39.679
+!MESSAGE project 09-currency-exchange-microservice-istio ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:39.684
+!MESSAGE project 10-currency-conversion-microservice-istio ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:39.688
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:39.693
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vRbhljBK => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:39.699
+!MESSAGE classpath=65 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:39.703
+!MESSAGE executing callback sts4.classpath.vRbhljBK 01-hello-world false 65
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:40.105
+!MESSAGE executing callback sts4.classpath.vRbhljBK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:40.108
+!MESSAGE Preparing classpath changed notification 10-currency-conversion-microservice-istio
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:40.112
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:40.157
+!MESSAGE classpath=128 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:40.161
+!MESSAGE executing callback sts4.classpath.vRbhljBK 10-currency-conversion-microservice-istio false 128
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:40.761
+!MESSAGE executing callback sts4.classpath.vRbhljBK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:40.764
+!MESSAGE Preparing classpath changed notification 09-currency-exchange-microservice-istio
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:40.767
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:40.799
+!MESSAGE classpath=130 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:40.803
+!MESSAGE executing callback sts4.classpath.vRbhljBK 09-currency-exchange-microservice-istio false 130
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:41.361
+!MESSAGE executing callback sts4.classpath.vRbhljBK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:41.365
+!MESSAGE Preparing classpath changed notification 08-currency-conversion-microservice-stackdriver
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:41.369
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:41.427
+!MESSAGE classpath=196 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:41.430
+!MESSAGE executing callback sts4.classpath.vRbhljBK 08-currency-conversion-microservice-stackdriver false 196
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:42.351
+!MESSAGE executing callback sts4.classpath.vRbhljBK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:42.354
+!MESSAGE Preparing classpath changed notification 07-currency-exchange-microservice-stackdriver
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:42.358
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:42.368
+!MESSAGE classpath=178 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:42.371
+!MESSAGE executing callback sts4.classpath.vRbhljBK 07-currency-exchange-microservice-stackdriver false 178
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:42.781
+!MESSAGE executing callback sts4.classpath.vRbhljBK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:42.784
+!MESSAGE Preparing classpath changed notification 06-currency-conversion-microservice-cloud
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:42.787
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:42.818
+!MESSAGE classpath=179 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:42.822
+!MESSAGE executing callback sts4.classpath.vRbhljBK 06-currency-conversion-microservice-cloud false 179
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:43.615
+!MESSAGE executing callback sts4.classpath.vRbhljBK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:43.619
+!MESSAGE Preparing classpath changed notification 05-currency-conversion-microservice-basic
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:43.622
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:43.639
+!MESSAGE classpath=142 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:43.642
+!MESSAGE executing callback sts4.classpath.vRbhljBK 05-currency-conversion-microservice-basic false 142
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:44.060
+!MESSAGE executing callback sts4.classpath.vRbhljBK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:44.062
+!MESSAGE Preparing classpath changed notification 04-currency-exchange-microservice-basic
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:44.065
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:44.072
+!MESSAGE classpath=124 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:44.074
+!MESSAGE executing callback sts4.classpath.vRbhljBK 04-currency-exchange-microservice-basic false 124
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:44.597
+!MESSAGE executing callback sts4.classpath.vRbhljBK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:44.600
+!MESSAGE Preparing classpath changed notification 03-todo-web-application-mysql
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:44.603
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:44.610
+!MESSAGE classpath=103 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:44.613
+!MESSAGE executing callback sts4.classpath.vRbhljBK 03-todo-web-application-mysql false 103
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:44.869
+!MESSAGE executing callback sts4.classpath.vRbhljBK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:44.872
+!MESSAGE Preparing classpath changed notification 02-todo-web-application-h2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:44.875
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:44.880
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:44.883
+!MESSAGE executing callback sts4.classpath.vRbhljBK 02-todo-web-application-h2 false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-04 16:52:44.997
+!MESSAGE executing callback sts4.classpath.vRbhljBK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-05 16:33:20.401
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.vRbhljBK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-05 16:33:20.425
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.vRbhljBK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-05 16:33:20.435
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-05 16:33:20.444
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.vRbhljBK => OK
+
+!ENTRY org.eclipse.core.jobs 2 2 2020-12-05 16:33:24.963
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.springframework.tooling.ls.eclipse.commons.STS4LanguageServerProcessStreamConnector$1
+!SESSION 2020-12-09 09:20:32.602 -----------------------------------------------
+eclipse.buildId=4.2.0.201903290612-RELEASE
+java.version=11.0.9
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.egit.core 1 0 2020-12-09 09:24:15.097
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2020-12-09 09:24:15.946
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-12-09 09:24:15.946
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@64908ab9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1b06dc57,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:25.711
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:25.751
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1c1ee02b[org.springframework.tooling.boot.ls:1.5.0.201903290544(id=533)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:25.798
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:26.131
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-12-09 09:24:26.720
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ddasarat'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.193
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.gDfJXDGZ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.198
+!MESSAGE subscribing to classpath changes: sts4.classpath.gDfJXDGZ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.202
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.207
+!MESSAGE subsribers = [sts4.classpath.gDfJXDGZ]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.213
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.311
+!MESSAGE project 01-hello-world ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.316
+!MESSAGE project 02-todo-web-application-h2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.319
+!MESSAGE Preparing classpath changed notification 01-hello-world
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.324
+!MESSAGE project 03-todo-web-application-mysql ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.328
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.332
+!MESSAGE project 04-currency-exchange-microservice-basic ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.337
+!MESSAGE project 05-currency-conversion-microservice-basic ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.341
+!MESSAGE project 06-currency-conversion-microservice-cloud ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.345
+!MESSAGE project 07-currency-exchange-microservice-stackdriver ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.349
+!MESSAGE project 08-currency-conversion-microservice-stackdriver ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.354
+!MESSAGE project 09-currency-exchange-microservice-istio ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.360
+!MESSAGE project 10-currency-conversion-microservice-istio ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.364
+!MESSAGE classpath=65 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.367
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.372
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.gDfJXDGZ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.376
+!MESSAGE executing callback sts4.classpath.gDfJXDGZ 01-hello-world false 65
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.788
+!MESSAGE executing callback sts4.classpath.gDfJXDGZ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.791
+!MESSAGE Preparing classpath changed notification 10-currency-conversion-microservice-istio
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.795
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.832
+!MESSAGE classpath=128 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:32.837
+!MESSAGE executing callback sts4.classpath.gDfJXDGZ 10-currency-conversion-microservice-istio false 128
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:34.118
+!MESSAGE executing callback sts4.classpath.gDfJXDGZ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:34.124
+!MESSAGE Preparing classpath changed notification 09-currency-exchange-microservice-istio
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:34.131
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:34.154
+!MESSAGE classpath=130 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:34.157
+!MESSAGE executing callback sts4.classpath.gDfJXDGZ 09-currency-exchange-microservice-istio false 130
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:35.043
+!MESSAGE executing callback sts4.classpath.gDfJXDGZ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:35.047
+!MESSAGE Preparing classpath changed notification 08-currency-conversion-microservice-stackdriver
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:35.053
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:35.095
+!MESSAGE classpath=196 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:35.098
+!MESSAGE executing callback sts4.classpath.gDfJXDGZ 08-currency-conversion-microservice-stackdriver false 196
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:36.061
+!MESSAGE executing callback sts4.classpath.gDfJXDGZ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:36.064
+!MESSAGE Preparing classpath changed notification 07-currency-exchange-microservice-stackdriver
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:36.067
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:36.090
+!MESSAGE classpath=178 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:36.094
+!MESSAGE executing callback sts4.classpath.gDfJXDGZ 07-currency-exchange-microservice-stackdriver false 178
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:36.967
+!MESSAGE executing callback sts4.classpath.gDfJXDGZ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:36.969
+!MESSAGE Preparing classpath changed notification 06-currency-conversion-microservice-cloud
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:36.972
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:36.990
+!MESSAGE classpath=179 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:36.994
+!MESSAGE executing callback sts4.classpath.gDfJXDGZ 06-currency-conversion-microservice-cloud false 179
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:37.771
+!MESSAGE executing callback sts4.classpath.gDfJXDGZ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:37.774
+!MESSAGE Preparing classpath changed notification 03-todo-web-application-mysql
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:37.777
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:37.785
+!MESSAGE classpath=103 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:37.788
+!MESSAGE executing callback sts4.classpath.gDfJXDGZ 03-todo-web-application-mysql false 103
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:38.075
+!MESSAGE executing callback sts4.classpath.gDfJXDGZ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:38.078
+!MESSAGE Preparing classpath changed notification 05-currency-conversion-microservice-basic
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:38.082
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:38.090
+!MESSAGE classpath=142 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:38.093
+!MESSAGE executing callback sts4.classpath.gDfJXDGZ 05-currency-conversion-microservice-basic false 142
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:38.428
+!MESSAGE executing callback sts4.classpath.gDfJXDGZ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:38.431
+!MESSAGE Preparing classpath changed notification 04-currency-exchange-microservice-basic
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:38.436
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:38.445
+!MESSAGE classpath=124 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:38.448
+!MESSAGE executing callback sts4.classpath.gDfJXDGZ 04-currency-exchange-microservice-basic false 124
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:38.790
+!MESSAGE executing callback sts4.classpath.gDfJXDGZ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:38.795
+!MESSAGE Preparing classpath changed notification 02-todo-web-application-h2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:38.801
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:38.812
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:38.817
+!MESSAGE executing callback sts4.classpath.gDfJXDGZ 02-todo-web-application-h2 false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-09 09:24:39.458
+!MESSAGE executing callback sts4.classpath.gDfJXDGZ SUCCESS [done]
+
+!ENTRY org.eclipse.ui 4 0 2020-12-09 09:25:45.920
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler$1.run(UIEventObjectSupplier.java:67)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:147)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4580)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:219)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setVisible(UIElementImpl.java:349)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:113)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:194)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:205)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:115)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:95)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:474)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5148)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4797)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2152)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4770)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:253)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:3985)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3541)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.tm4e.ui.internal.menus.ThemeContribution.getContributionItems(ThemeContribution.java:59)
+	at org.eclipse.ui.actions.CompoundContributionItem.getContributionItemsToFill(CompoundContributionItem.java:83)
+	at org.eclipse.ui.actions.CompoundContributionItem.fill(CompoundContributionItem.java:57)
+	at org.eclipse.ui.internal.menus.DynamicMenuContributionItem.fill(DynamicMenuContributionItem.java:150)
+	at org.eclipse.jface.action.MenuManager.doItemFill(MenuManager.java:731)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:813)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:672)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.scheduleManagerUpdate(MenuManagerRenderer.java:1222)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.subscribeUIElementTopicAllRenderedVisibility(MenuManagerRenderer.java:203)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 65 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-10 21:09:50.980
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.gDfJXDGZ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-10 21:09:50.980
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.gDfJXDGZ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-10 21:09:50.996
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-10 21:09:50.998
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.gDfJXDGZ => OK
+!SESSION 2020-12-11 19:23:37.519 -----------------------------------------------
+eclipse.buildId=4.2.0.201903290612-RELEASE
+java.version=11.0.9
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.egit.core 1 0 2020-12-11 19:23:45.215
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2020-12-11 19:23:46.126
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-12-11 19:23:46.127
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3fcc7f5c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7512a9a6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:23:56.284
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:23:56.290
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@353ac1ef[org.springframework.tooling.boot.ls:1.5.0.201903290544(id=533)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:23:56.296
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:23:56.589
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-12-11 19:23:57.377
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ddasarat'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:07.172
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pJLtONPE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:07.178
+!MESSAGE subscribing to classpath changes: sts4.classpath.pJLtONPE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:07.184
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:07.190
+!MESSAGE subsribers = [sts4.classpath.pJLtONPE]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:07.195
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:07.583
+!MESSAGE project 02-todo-web-application-h2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:07.591
+!MESSAGE project 01-hello-world ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:07.596
+!MESSAGE Preparing classpath changed notification 02-todo-web-application-h2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:07.601
+!MESSAGE project 03-todo-web-application-mysql ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:07.608
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:07.612
+!MESSAGE project 04-currency-exchange-microservice-basic ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:07.617
+!MESSAGE project 05-currency-conversion-microservice-basic ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:07.623
+!MESSAGE project 06-currency-conversion-microservice-cloud ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:07.628
+!MESSAGE project 07-currency-exchange-microservice-stackdriver ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:07.634
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:07.638
+!MESSAGE project 08-currency-conversion-microservice-stackdriver ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:07.642
+!MESSAGE executing callback sts4.classpath.pJLtONPE 02-todo-web-application-h2 false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:07.648
+!MESSAGE project 09-currency-exchange-microservice-istio ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:07.657
+!MESSAGE project 10-currency-conversion-microservice-istio ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:07.662
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:07.667
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pJLtONPE => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:09.435
+!MESSAGE executing callback sts4.classpath.pJLtONPE SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:09.441
+!MESSAGE Preparing classpath changed notification 10-currency-conversion-microservice-istio
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:09.446
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:09.466
+!MESSAGE classpath=128 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:09.476
+!MESSAGE executing callback sts4.classpath.pJLtONPE 10-currency-conversion-microservice-istio false 128
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:11.553
+!MESSAGE executing callback sts4.classpath.pJLtONPE SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:11.557
+!MESSAGE Preparing classpath changed notification 09-currency-exchange-microservice-istio
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:11.562
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:11.576
+!MESSAGE classpath=130 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:11.581
+!MESSAGE executing callback sts4.classpath.pJLtONPE 09-currency-exchange-microservice-istio false 130
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:12.239
+!MESSAGE executing callback sts4.classpath.pJLtONPE SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:12.244
+!MESSAGE Preparing classpath changed notification 08-currency-conversion-microservice-stackdriver
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:12.248
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:12.265
+!MESSAGE classpath=196 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:12.269
+!MESSAGE executing callback sts4.classpath.pJLtONPE 08-currency-conversion-microservice-stackdriver false 196
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:13.343
+!MESSAGE executing callback sts4.classpath.pJLtONPE SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:13.348
+!MESSAGE Preparing classpath changed notification 07-currency-exchange-microservice-stackdriver
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:13.352
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:13.401
+!MESSAGE classpath=178 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:13.406
+!MESSAGE executing callback sts4.classpath.pJLtONPE 07-currency-exchange-microservice-stackdriver false 178
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:13.943
+!MESSAGE executing callback sts4.classpath.pJLtONPE SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:13.947
+!MESSAGE Preparing classpath changed notification 06-currency-conversion-microservice-cloud
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:13.952
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:13.969
+!MESSAGE classpath=179 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:13.974
+!MESSAGE executing callback sts4.classpath.pJLtONPE 06-currency-conversion-microservice-cloud false 179
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:14.502
+!MESSAGE executing callback sts4.classpath.pJLtONPE SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:14.505
+!MESSAGE Preparing classpath changed notification 05-currency-conversion-microservice-basic
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:14.508
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:14.518
+!MESSAGE classpath=142 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:14.521
+!MESSAGE executing callback sts4.classpath.pJLtONPE 05-currency-conversion-microservice-basic false 142
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:14.734
+!MESSAGE executing callback sts4.classpath.pJLtONPE SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:14.737
+!MESSAGE Preparing classpath changed notification 04-currency-exchange-microservice-basic
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:14.740
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:14.751
+!MESSAGE classpath=124 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:14.755
+!MESSAGE executing callback sts4.classpath.pJLtONPE 04-currency-exchange-microservice-basic false 124
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:15.230
+!MESSAGE executing callback sts4.classpath.pJLtONPE SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:15.233
+!MESSAGE Preparing classpath changed notification 03-todo-web-application-mysql
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:15.236
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:15.242
+!MESSAGE classpath=103 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:15.245
+!MESSAGE executing callback sts4.classpath.pJLtONPE 03-todo-web-application-mysql false 103
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:15.271
+!MESSAGE executing callback sts4.classpath.pJLtONPE SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:15.273
+!MESSAGE Preparing classpath changed notification 01-hello-world
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:15.276
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:15.283
+!MESSAGE classpath=65 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:15.285
+!MESSAGE executing callback sts4.classpath.pJLtONPE 01-hello-world false 65
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-11 19:24:15.501
+!MESSAGE executing callback sts4.classpath.pJLtONPE SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-12 12:40:11.186
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:108)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 12:40:16.991
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.pJLtONPE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 12:40:17.005
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.pJLtONPE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 12:40:17.017
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-12-12 12:40:17.022
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.pJLtONPE => OK
